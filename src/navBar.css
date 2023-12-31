@@ -1,0 +1,18 @@
+.link{
+    text-align: center;
+    /* background-color: rgb(33, 33, 128); */
+    background-color: rgb(44, 44, 139);
+    padding: 1%;
+    margin:0% ;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    display: flex;
+   flex-wrap: wrap;
+    direction: rtl;
+  }
+  .linkim{
+    margin: 0% 5%;
+  }
+
+   

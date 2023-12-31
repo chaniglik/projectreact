@@ -1,0 +1,54 @@
+
+   .contain {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  
+  .picture-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  .button-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  button {
+    margin-left: 20px;
+    background: none;
+    color: rgb(44, 44, 139);
+    border: 0ch;
+    font-size: xx-large;
+  }
+  .picture-caption {
+    color: rgb(44, 44, 139);
+    margin-bottom: 5%;
+    white-space: normal;
+    max-width: 200px; /* Adjust the max-width as needed */
+  }  
+  .picture-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .picture-container img {
+    width: 100px; /* Adjust the width as needed */
+    height: 100px; /* Adjust the height as needed */
+  }
+  
+.koteret{
+  text-align: center;
+  color: rgb(44, 44, 139);
+  font-size: xx-large;
+}

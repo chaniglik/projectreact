@@ -1,0 +1,38 @@
+.listDonation{
+    text-decoration: none;
+    color: brown;
+}
+.all{
+    text-decoration: none;   
+    display: grid; 
+    grid-template-columns: repeat(3,1fr);
+    gap:1%;
+   
+}
+.all li{
+    list-style-type: none;
+    margin: 5% 0%;
+
+}
+.sortandsearch{
+    display: flex;
+    justify-content: center;
+}
+.donationsearch{
+    display: flex;
+    flex-direction: column;
+   text-align: center;
+   margin: 1%;
+}
+.sort{
+    display: flex;
+    flex-direction: column;
+    gap: 1%;
+}
+/* .bg.MuiOutlinedInput-root {
+    background-color: lightblue;
+  } */
+  .bg {
+    background-color: #303F9F;
+  }
+  
